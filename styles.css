@@ -9,8 +9,9 @@
 body {
   background:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-    url(https://images.unsplash.com/photo-1493928841026-e1ab0a590a61?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=alex-iby-xVPaGwmde0A-unsplash.jpg&w=1920);
+    url(https://unsplash.com/photos/FCHlYvR5gJI/download?force=true&w=1920);
   background-position: center;
+  background-size: cover;
   color: white;
   display: flex;
   flex-direction: column;
@@ -32,6 +33,7 @@ body {
 }
 
 .descricao {
+  width: 50%;
   font-family: 'Raleway', serif;
   font-weight: 500;
   margin-top: 1rem;
@@ -72,7 +74,7 @@ nav a:hover {
 }
 
 .contatos a {
-  margin: 0 5px;
+  margin: 0 7px;
 }
 
 
