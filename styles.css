@@ -1,8 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
 body {
-  background-color: blueviolet;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url(https://images.unsplash.com/photo-1493928841026-e1ab0a590a61?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=alex-iby-xVPaGwmde0A-unsplash.jpg&w=1920);
+  background-position: center;
   color: white;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: calc(100vh - 2rem);
+}
+
+.logo {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.8rem;
+  transition: color .2s;
+}
+.logo:hover {
+  color: black;
+  transition: color .2s;
+}
+
+.descricao {
+  font-family: 'Raleway', serif;
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+nav {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgba(255, 255, 255, .3);
+  padding-top: 1rem;
+}
+
+nav a {
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  margin: 0 1rem;
+  padding: 10px 1rem;
+  transition: .3s;
+  border-radius: 3px;
+}
+
+nav a:hover {
+  background: white;
+  color: black;
+  transition: .3s;
+}
+
+.contatos {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.contatos a {
+  margin: 0 5px;
+}
+
+
+
+.contatos img {
+  width: 1.5rem;
+  transition: .3s;
+}
+
+.contatos img:hover {
+  transform: translateY(-5px);
+  transition: .3s;
 }
