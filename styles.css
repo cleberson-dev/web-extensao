@@ -124,3 +124,31 @@ a.disabled {
   user-select: none;
   -moz-user-select: none;
 }
+
+.meus-contatos {
+  margin: 1rem 0;
+}
+
+.meus-contatos li {
+  list-style: none;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+
+.meus-contatos a {
+  color: black;
+  padding: 5px;
+  background-color: white;
+  text-decoration: none;
+}
+
+.meus-contatos a:visited {
+  color: #8b8c89;
+}
+
+.meus-contatos a:hover {
+  transform: scale(0.4);
+  color: #6096ba;
+}
